@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header-info-block {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-info {
+    min-width: 361px;
+}
