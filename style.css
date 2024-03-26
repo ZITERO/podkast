@@ -15,7 +15,7 @@
 .header {
     background-color: #1A1A1A;
     padding-top: 36px;
-    padding-bottom: 200px;
+    padding-bottom: 50px;
 }
 
 .navigation {
@@ -108,6 +108,8 @@
 
 .card-info-img {
     display: flex;
+    width: 361px;
+    height: 361px;
 }
 
 .info-title {
@@ -213,7 +215,6 @@
     justify-content: center;
     align-items: center;
     font-size: 1.25rem;
-    background-color: blue;
     color: white;
     cursor: pointer;
 }
@@ -241,7 +242,8 @@
 .course-row {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 60px;
+
+
 }
 
 .card-big {
@@ -265,7 +267,7 @@
 }
 
 .img-card-1 {
-    background-image: url(../img/card-1.png);
+    background-image: url(../img/dying-light-2.png);
 }
 
 .btn-time {
@@ -281,7 +283,7 @@
     width: 77px;
     border-color: #111;
     border-radius: 5px;
-    color: #fff;
+    color: #427222;
     padding: 6px 0;
     display: inline-flex;
     align-items: center;
@@ -289,7 +291,7 @@
 }
 
 .img-card-2 {
-    background-image: url(../img/card-2.png);
+    background-image: url(../img/sons-of-the-forest.png);
 }
 
 .course-category {
@@ -304,7 +306,7 @@
     font-size: 35px;
     font-weight: bold;
     letter-spacing: 0.3px;
-    color: #1A1A1A;
+    color: #FFF;
     margin-bottom: 20px;
 }
 
@@ -314,59 +316,21 @@
     color: #767676;
     line-height: 1.7;
     letter-spacing: 0.5px;
+    margin-bottom: 15px;
 }
 
 .footer {
-    background-color: #F5F6F8;
-    padding: 60px 0;
+    background-color: #1A1A1A;
 }
 
 .course-info-title {
+    display: flex;
+    justify-content: center;
     font-weight: 600;
     font-size: 70px;
-    color: #1A1A1A;
+    color: #fff;
     padding-bottom: 40px;
-}
-
-.footer-row {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border-bottom: 1px solid #939495;
-    padding: 30px 0;
-}
-
-.left-block {
-    display: flex;
-    align-items: center;
-}
-
-.course-number {
-    font-style: normal;
-    font-weight: 600;
-    font-size: 25px;
-    color: #A2A2A4;
-}
-
-.course-block {
-    margin-left: 60px;
-    line-height: 1.5;
-}
-
-.course-name {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 50px;
-    letter-spacing: 0.8px;
-    color: #000000;
-}
-
-.course-count {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    letter-spacing: 0.5px;
-    color: #9A9A9B;
+    padding-top: 30px;
 }
 
 @media (max-width: 1120px) {
@@ -494,9 +458,32 @@
 }
 
 .img-card-3 {
-    background-image: url(../img/card-3.png);
+    background-image: url(../img/the-forest.png);
 }
 
 .img-card-4 {
-    background-image: url(../img/card-4.png);
+    background-image: url(../img/dying-light.png);
+}
+
+.man {
+    width: 180px;
+    height: 180px;
+}
+
+.main-content {
+    background-color: #1A1A1A;
+}
+
+.course-section-title {
+    text-align: center;
+    color: #fff;
+    margin-bottom: 80px;
+
+}
+
+.canal {
+
+    display: flex;
+    justify-content: center;
+
 }
